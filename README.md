@@ -1,5 +1,5 @@
-# Reverse Visual Search
 Introudction to Artificial Intelligence Spring 22
+# Reverse Visual Search
 
 ## Team
 - pp2535@nyu.edu - AWS contact
