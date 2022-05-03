@@ -17,7 +17,7 @@ The problem statement given to us is where we are given an image as a query, the
 
 **FIRST CHALLENGE - Reverse Image Search Baseline**<br>
 <a href="https://github.com/ThomasMaher/NYU-AI-Project/blob/main/reverse_image_search_P1.ipynb">Part 1 notebook</a><br>
-Note: this notebook is frequently displays "The notebook took too long to render" in Github but not consistently. We'll provide a backup option for viewing or downloading this notebook.
+Note: this notebook is frequently displays "The notebook took too long to render" in Github but not consistently. We provided a <a href="https://github.com/ThomasMaher/NYU-AI-Project/blob/main/Baseline%20(Step-1)/ReverseVisualImageSearch.py">python file</a> under baslelin (step 1) as a back up in case this does not work..
 This step uses a pretrained CNN model to extract features from the <a href="http://vis-www.cs.umass.edu/lfw/">LFW dataset of images</a>. A k-nearest-neighbours algorithm is used to determine which images in the data are most similar to an input image.<br>
 Libraries used – Os , keras , tensorflow , random , numpy , matplotlib and scipy
 <br>
