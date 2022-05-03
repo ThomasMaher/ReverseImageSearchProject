@@ -69,7 +69,8 @@ In the actual notebook included here, we were not able to download, retrieve, st
 **Future Work**<br>
 In our project, we mainly dealt with MTCNN, CNN model ( ResNet50), algorithm like KNN and Milvus search. Besides the methods, we mentioned, there are still a lot of rooms for further experiments. Some qualified techniques, specifically for image reverse search task, are summarized below –
 1)	For first challenge, we could have experimented with CNN model ResNet 152, which has more layers than Resnet50
-2)	For the second challenge, we could have tried  combination of facenet and elastic search, or a combination of deep face and milvus.
+2)	We unfortunately ran our second notebook too late and it did not have time to finish after implementing MTCNN. While we did write the code to complete this, the second notebook that we included here is not actually our final product.
+
 
 
 
