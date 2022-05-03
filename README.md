@@ -17,6 +17,7 @@ The problem statement given to us is where we are given an image as a query, the
 
 **FIRST CHALLENGE - Reverse Image Search Baseline**<br>
 <a href="https://github.com/ThomasMaher/NYU-AI-Project/blob/main/reverse_image_search_P1.ipynb">Part 1 notebook</a><br>
+Note: this notebook is frequently displays "The notebook took too long to render" in Github but not consistently. We'll provide a backup option for viewing or downloading this notebook.
 This step uses a pretrained CNN model to extract features from the <a href="http://vis-www.cs.umass.edu/lfw/">LFW dataset of images</a>. A k-nearest-neighbours algorithm is used to determine which images in the data are most similar to an input image.<br>
 Libraries used – Os , keras , tensorflow , random , numpy , matplotlib and scipy
 <br>
@@ -34,7 +35,7 @@ The results are mapped to the index of the image embedding in features and sorte
 ![image](https://user-images.githubusercontent.com/26978629/166162283-8cd0c67f-ad7e-4d0b-871e-8a0af42f9917.png)
 
 **SECOND CHALLENGE - Reverse Image Search Improvement**<br>
-<a href=''>Part 2 notebook</a><br>
+<a href='https://github.com/ThomasMaher/NYU-AI-Project/blob/main/Reverse_Image_Search_Part_2.ipynb'>Part 2 notebook</a><br>
 For the second step, we used MTCNN algorithm along with Milvus Search for the betterment of our results. Here, we use MTCNN in order to extract the facial features from a photo before feeding it into the CNN. MTCNN is a CNN-based classifier which is able to detect the presence of a face in an image and provide the location of that face. We use the location MTCNN returns to crop the image around the detected fase. Using a cropped image allows the ResNet50 CNN to extract only those features which make up the person's face, meaning our results will be based on only n the features of a face and not the environment in the image around the face. At the end, we are using Milvus database which is built to power embedding similarity search. It optimizes the ability to query an embedding and retrieve similar results.<br>
 Libraries used -  PIL , MTCNN , torch , torchvision , torch.utils.data , os, sys , time
 <br>
