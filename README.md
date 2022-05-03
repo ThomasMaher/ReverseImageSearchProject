@@ -36,7 +36,7 @@ The results are mapped to the index of the image embedding in features and sorte
 **SECOND CHALLENGE - Reverse Image Search Improvement**<br>
 <a href=''>Part 2 notebook</a><br>
 For the second step, we used MTCNN algorithm along with Milvus Search for the betterment of our results. Here, we use MTCNN in order to extract the facial features from a photo before feeding it into the CNN. MTCNN is a CNN-based classifier which is able to detect the presence of a face in an image and provide the location of that face. We use the location MTCNN returns to crop the image around the detected fase. Using a cropped image allows the ResNet50 CNN to extract only those features which make up the person's face, meaning our results will be based on only n the features of a face and not the environment in the image around the face. At the end, we are using Milvus database which is built to power embedding similarity search. It optimizes the ability to query an embedding and retrieve similar results.<br>
-Libraries used -  PIL , facenet_pytorch , torch , torchvision , torch.utils.data , os, sys , time
+Libraries used -  PIL , MTCNN , torch , torchvision , torch.utils.data , os, sys , time
 <br>
 Background Information – <br>
 1)	MTCNN - Multi-task Convolutional Neural Network.
