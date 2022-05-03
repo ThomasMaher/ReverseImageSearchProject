@@ -67,7 +67,7 @@ We would randomly select a set of frames from each video. It's not necessary to 
 In the actual notebook included here, we were not able to download, retrieve, store and work with the video files which came in a 5gb tar file. Instead we give present some code that uses a csv of the youtube video data and performs analysis on the attributes of the files. The similarity among all attributes is compared with those of the input in order ot determine the most similar results. Along with the explanation of how we would have liked to implement the video search program, the notebook is meant to give outline our thoughts and intentions for the extra credit.<br>
 
 **Future Work**<br>
-In our project, we mainly dealt with CNN model ( ResNet50), algorithm like KNN and Milvus search. Besides the methods, we mentioned, there are still a lot of rooms for further experiments. Some qualified techniques, specifically for image reverse search task, are summarized below –
+In our project, we mainly dealt with MTCNN, CNN model ( ResNet50), algorithm like KNN and Milvus search. Besides the methods, we mentioned, there are still a lot of rooms for further experiments. Some qualified techniques, specifically for image reverse search task, are summarized below –
 1)	For first challenge, we could have experimented with CNN model ResNet 152, which has more layers than Resnet50
 2)	For the second challenge, we could have tried  combination of facenet and elastic search, or a combination of deep face and milvus.
 
